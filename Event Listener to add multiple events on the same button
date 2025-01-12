@@ -1,0 +1,42 @@
+pgm9.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style> 
+button { 
+background-color: rgb(12, 125, 141); 
+color: white; 
+padding: 10px 20px; 
+font-size: 16px; 
+font-weight: bold; 
+cursor: pointer; 
+transition: background-color 0.3s ease;
+ } 
+button:hover { 
+background-color: rgb(216, 28, 128);
+ } 
+p { 
+font-family: Arial, sans-serif; 
+font-size: 16px; 
+color: #333; 
+} 
+</style> 
+</head> 
+<body>
+<button id="button">click here</button>
+<p id="msg1"></p>
+<p id="msg2"></p>
+<p id="msg3"></p>
+<script>
+const button =document.getElementById("button");
+const msg1=document.getElementById("msg1");
+const msg3=document.getElementById("msg3");
+button.addEventListener('click',() => { msg1.textContent="Button Clicked !!";} ); 
+button.addEventListener('mouseout',()=>{msg1.textContent="Mouse the button!!";} );
+</script>
+</body>
+</html>
+
