@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Change Background Color</title>
+<style>
+body
+{
+background-color: pink;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<h1>EVENT HANDLING TO CHANGE BACKGROUND COLOUR OF A PAGE </h1>
+<button onclick="change_color()">click to change the color</button>
+<script>
+function change_color()
+{
+let color=[ "green",
+" yellow","orange", "purple", "black", "white", "pink", "brown","red", "blue"];
+let random=Math.floor(Math.random()*color.length);
+document.body.style.backgroundColor=color[random];
+}
+</script>
+</body>
+</html>
