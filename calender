@@ -1,0 +1,112 @@
+calender.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CALENDER</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-color: #f4f4f4;  }
+.calendar-container {
+background-color: white;
+padding: 20px;
+border-radius: 8px;
+width: 600px; }
+.calendar-header {
+text-align: center;
+margin-bottom: 20px; }
+table {
+width: 100%;
+border-collapse: collapse; }
+th, td {
+text-align: center;
+padding: 10px;
+width: 14%; }
+th {
+background-color: #4CAF50;
+color: white; }
+td {
+background-color: #f9f9f9;  }
+td:hover {
+background-color: #ddd;
+cursor: pointer; }
+input {
+padding: 5px;
+margin: 5px 0; }
+button {
+padding: 5px 10px;
+margin-top: 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+cursor: pointer;
+border-radius: 4px; }
+</style>
+</head>
+<body>
+<div class="calendar-container">
+<h1>Calendar </h1>
+<label for="month">Month :</label>
+<input type="number" id="month" min="1" max="12" placeholder="Enter month (1-12)" required>
+<br>
+<label for="year">Year:</label>
+<input type="number" id="year" placeholder="Enter year" required>
+<br>
+<button onclick="showCalendar()">submit</button>
+<br>
+<div class="calendar-header" id="calendar-header"></div>
+<table id="calendar-table"></table>
+</div><script>
+function showCalendar() {
+const month = document.getElementById('month').value;
+const year = document.getElementById('year').value;
+if (!month || !year || month < 1 || month > 12 || year < 1000 || year > 9999)
+{
+alert("Please enter a valid month (1-12) and year.");
+return;
+}
+const f_Day = new Date(year, month - 1, 1);
+const lastDay = new Date(year, month, 0);
+const numberOfDays = lastDay.getDate();
+const startingDay = f_Day.getDay();
+const monthNames = ["January", "February", "March", "April", "May","June","July","August", "September", "October", "November", "December"];
+const monthName = monthNames[month - 1]
+document.getElementById('calendar-header').innerHTML = `${monthName}
+${year}`;
+let table=
+"<tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>";
+let dayCounter = 1;
+
+for (let i = 0; i < 6; i++)
+{
+table += "<tr>";
+for (let j = 0; j < 7; j++)
+{
+if (i === 0 && j < startingDay)
+{
+table += "<td></td>";
+} else if (dayCounter <= numberOfDays)
+{
+table += `<td>${dayCounter}</td>`;
+dayCounter++;
+} else
+{
+table += "<td></td>";
+}
+}
+table += "</tr>";
+if (dayCounter > numberOfDays) break;
+}
+document.getElementById('calendar-table').innerHTML = table;
+}
+</script>
+</body>
+</html>
