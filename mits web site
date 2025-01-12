@@ -1,0 +1,117 @@
+Frame.html
+<html>
+<head>  <title>frame</title></head>
+<frameset cols="30%,70%">
+<frame src="reg.html">
+<frame src="mits.html">
+</frameset>
+</html>
+
+Mits.html
+<html>
+<head>
+<title>Muthoot institution of technology and science</title>
+<style>
+h5
+{  color:#e11515;font-size:15;}
+h2
+{ color:white;  font-size:30;   background-color:#e11515;}
+h3
+{
+color:#e11515;  font-size:30;
+}
+</style></head>
+<body>
+<img src="C:\Users\acer\Desktop\mca anagha\wpl\clg\logon.jpeg"alt="img" align="left"width="200">
+<h5 align="right";>Affiliated to APJ Abdul Kalam<br> Technological UniversityApproved by AICTE<br>info@mgits.ac.in | 0484-2883300/0484-2732100/111</h5>
+<h3 align="center";>MUTHOOT INSTITUTE OF TECHNOLOGY AND SCIENCE</h3>
+<h4 align="center";>Varikoli P.O, Puthencruz- 682308</h4><br>
+<img src="C:\Users\acer\Desktop\mca anagha\wpl\clg\CLG.jpg" width="500"height="250">
+<img src="C:\Users\acer\Desktop\mcaanagha\wpl\clg\CLG1.jpg"width="500"height="250">
+<br><br><h2 align="center";>About</h2>
+<P  align="center";>Muthoot Institute of Technology and Science (MITS) </i>is promoted by Muthoot M. George Institute of Technology, a Section 25 Company within the Muthoot Group. MITS is a self financing technical institution offering postgraduate and undergraduate engineering programmes, situated in the industrial suburb of Kochi, close to the Smart City and Info Park, approximately 15 kms from Vytilla Junction towards Muvattupuzha on the Cochin Madurai National Highway.
+</p></center><br><br>
+
+<h2 align="center";>Vision</h2>
+<p  align="center";>To be a centre of excellence for learning and research in engineering and technology, producing intellectually well-equipped and socially committed citizens possessing an ethical value system.</p><br><br>
+<h2 align="center";>Programm Offered</h2><ul>
+<li>B.TechCIVIL ENGINEERING</li><li>B.Tech</li>
+<li>COMPUTER  SCIENCE ENGINEERING</li>
+<li>B.TechELECTRONICS & COMMUNICATION ENGINEERING</li>
+<li>B.Tech</li><li>MECHANICAL ENGINEERING</li>
+<li>MCA</LI><a href="reg.html">apply now</a></ul></p>
+</body>
+</html>
+ 
+Reg.html
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+<style>
+h2
+{  color:white;  font-size:30;
+}
+table
+{  color:white;  }
+body 
+{  background-color:#f6484d;  }
+</style></head>
+<body>
+<center><h2>REGISTRATION FORM</H2></center>
+<CENTER>
+<form><table border="3"><tr>
+<td >NAME :  </td><td><input type ="text" name="name" size= "20"></td></tr>
+<td>AGE  : </td><td><input type ="text" name="age" size= "20"></td>
+<tr><td>DOB  : </td><td><input type ="date" name="dob" size= "20"></td></tr>
+<tr><td>RELIGION: </td><td><input type ="text" name="rel" size="20"></td></tr>
+<tr><td>adhar numbr  </td><td><input type ="number" name="adhar" size="20"></td></tr>
+<tr><td>GENDER : </td><td><input type="radio" name="gender" value="male">male
+<input type="radio" name="gender" value="female"> female</td></tr>
+<tr><td>ADDRESS  :</td><td><input type="text" name="address" size="20"></td></tr>
+<tr><td><br>DISTRICT:</td> <td><select name="district">
+<option value="Trivandam">Trivandam</option><option value="kollam">kollam</option>
+<option value="Alapuzha">Alapuzha</option>
+<option value=" Kottayam ">Kottayam </option>
+<option value="Iduki">Iduki</option>
+<option value="EKM">EKM</option>
+</select></td></tr><tr><td>USER NAME :</td><td> <input type ="text" name="uname" size= "20"></td></tr>
+
+<tr><td>PASSWORD : </td><td><input type ="password" name="password" ></td></tr>
+<tr><TD COLSPAN="2"><h3 ALIGN ="CENTER">DEGREE DETAILS:</h3><BR></th></tr>
+<tr><BR><td>COLLEGE NAME :</td><td> <input type ="text" 
+ name="cgl" size= "20"></td>
+<tr><td><BR> COURSE :</td><td><select name="course">
+<option value="BCA">BCA</option>
+<option value="BSC COMPUTER">BSC COMPUTER</option>
+<option value="BSC MATHS">BSC MATHS</option>
+<option value="PHYSICS">PHYSICS</option>
+<option value="other">Other</option>
+</select></td></tr><tr><td>MARK  (%) :</td><td> <input type ="NUMBER" name="name" size= "20"></td><br>
+<TR><TD COLSPAN="2"><h3 ALIGN ="CENTER"> PLUS TWO:</h3></TD></TR>
+<br><tr><td>SUBJECT</td></h3><br>
+<td><select name="dropdowm">
+<option value="Science">Science</option>
+<option value="Commerse">Commerse</option>
+<option value="Humanities">Humanities</option>
+<option value=" Computer Science">Computer Science</option>
+<option value="other">Other</option>
+<tr><td>MARK  (%) :</td><td> <input type ="NUMBER" name="name" size= "20"></td><br>
+</select></td>
+<tr><TD COLSPAN="2"><h3 ALIGN ="CENTER">ENTANCE DETAILS:</h3><BR></th></tr>
+<tr><BR><td> ENTRANCE TYPE :</td><td> <input type ="text" 
+name="entrance" size="20"></td>
+<tr><td><BR> ROLL NO :</td><td><input type="number" 
+name="gender" value="rollno"> </td>
+<tr><BR><td> ENTRANCE RANK :</td><td> <input type ="number" 
+name="rank" size= "20"></td>
+</select></td></tr>
+<TR><TD>MARK  (%) :</TD><TD> <input type ="NUMBER" 
+name="name" size= "20"></TD>
+<TR>
+<TD COLSPAN="2" ALIGN="CENTER">
+<input type="submit" name="submit" value="submit"/>
+<input type="reset" name="reset"value="reset"/>
+</TD></table>
+</form></CENTER>
+</body>
+</html>
