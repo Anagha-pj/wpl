@@ -1,0 +1,48 @@
+<html>
+<head><title>List Of Books</title>
+<style>
+body {
+background-color: #f4f4f4;
+margin: 0;
+padding: 20px;}
+h2 {color: #333; }
+table {
+width: 70%;
+border-collapse: collapse;
+margin-top: 20px;
+background-color: #fff;}
+th, td {
+padding: 10px;
+text-align: left;
+border: 1px solid #ddd;}
+th {background-color: #f2f2f2;}
+tr:hover {background-color: #f1f1f1;}
+.center {text-align: center;}
+</style></head><body>
+<?php
+$conn=mysqli_connect("localhost","root"," ","college");
+if(!$conn){
+die("Connection failed".mysqli_connect_error());}
+$sql="SELECT * FROM book ";
+$result=mysqli_query($conn,$sql);
+if(mysqli_num_rows($result)>0){
+echo "<center> <h2> List Of Books</h2> ";
+echo "<table border= 2 >
+<tr> <th> BOOK ID </th>
+<th> TITLE </th>
+<th> AUTHOR </th>
+<th> EDITION </th>
+<th> PUBLISHER </th> </tr>";
+while($row=mysqli_fetch_assoc($result)){
+echo "<tr>";
+echo "<td>" .$row['id']."</td>";
+echo "<td>" .$row['title']."</td>";
+echo "<td>" .$row['author']."</td>";
+echo "<td>" .$row['ed']."</td>";
+echo "<td>" .$row['pub']."</td> </tr>";}
+echo "</table></center>";}
+else{
+echo "No recode is found <br>";}
+mysqli_close($conn);
+?></body></html>
+
