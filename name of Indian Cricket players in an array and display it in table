@@ -1,0 +1,26 @@
+<html>
+<head>
+<title> TABLE </title>
+<style>
+body {  
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;   }
+table {  
+width: 50%; margin: 20px auto; }
+</style></head>
+<body> 
+<center><h2>LIST OF INDIAN CRICKET PLAYERS <h2>
+<table border=2;>
+<tr><th>NAMES</th></tr>
+<?php
+$names_of_players=array("Virat Kohli","Rohit Sharma","Jasprit Bumrah","Hardik Pandya","KL Rahul");
+foreach($names_of_players as $names_of_players)
+{
+echo"<tr> <td> ".$names_of_players ."</td></tr>";
+}
+?>
+</table>
+</center>
+</body>
+</html>
+
