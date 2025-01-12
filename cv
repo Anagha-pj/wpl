@@ -1,0 +1,94 @@
+<html>
+
+<head>
+<title>cv</title>
+<style>
+.vl {
+text-size: 40px;
+border: 2px solid black;
+height: 1100px;
+text-align: justify;
+}
+</style>
+</head>
+<body <div class="vl"></div><br>
+<img src="C:\Users\acer\Desktop\mca anagha\anupic.jpeg" width="150pxl" height="150pxl"alt="img"style="float:right">
+<h2>  ANAGHA P J  </h2>
+<p>     Address : Pareparambil house<BR>mahila samajam rd <BR> vennla kochi <BR><BR>
+ Contact : 7510254359<BR>
+email   :  <a href="anaghapjanu@gmail.com">anaghapjanu@gmail.com</a>
+</p><hr>
+<h2>OBJECTIVE </h2>
+<p>Recent BCA graduate eager to leverage programming skills in software development . I have developed proficiency in languages such as Java, Python, and JavaScript through coursework and personal projects.<br> <br> I am looking for an opportunity to further develop my skills while showcasing my qualities and knowledge. </p>
+<BR><h2>  EDUCATION QUALIFICATIONS   </H2>
+<br><br>
+<TABLE BORDER ="2">
+<th><th> ISTITUTION </th>
+<th COURSE </th><th> YEAR OF PASSING </th>
+<th> PERSENTAGE </th></tr><tr><td> MES TO ABDULLA MEMORIAL COLLEGE KUNNUKARA </TD>
+<td> BCA </ td ><td> 2024 </ td ><td> 85 </ td ></tr>
+
+<tr><td>ST TERASA'S CGHSS ERNAKULAM </ td ><td> COMPUTER SCIENCE </ td >
+< td >2021 </ td >< td > 97 </ td ></ tr>< tr>
+< td >ST JUDES EMHSS KARNAKODAM </ td >
+< td > SSLC </ td ><td >2019</ td >< td >95 </ td ></tr>
+</TABLE>
+<br><h2> SKILLS</H2>
+<OL><LI>TECHNICAL SKILLS</LI><BR><UL>
+<LI>Programming languages :C,JAVA,PYTHON </LI><BR>
+<li>Web development  : HTML ,CSS,PHP,MYSQL</li><BR>
+</UL><LI>SOFT SKILLS</LI><BR>
+<UL><LI>Decision making  </LI><BR><li> Analytical skill</li><BR>
+<li> Team work</li><BR><li> Active listening </li><BR>
+</UL></OL><h2> CERTIFICATES</H2>
+<UL><LI>Certificate of java test,Spoken Tutorial Project at IIT Bombay</LI>
+</UL><br><a href="C:\Users\acer\Desktop\mca anagha\cv2.html">cick to next page</a>
+</body>
+</html>
+------------
+Cv2.html
+<html>
+<head>
+<title> cv2</title>
+<style>
+.vl {
+  text-size: 40px; border: 2px solid black; height: 1100px; text-align: justify;
+}
+.link
+{
+position:absolute; bottom:-350; right:0; padding:0 30px 10px 0;
+}
+</style></head>
+<body <div class="vl"></div>
+<h2> PROJECTS</h2>
+<ol><li><b><dt>CIVIC HUB</dt></b>
+<BR><ul>
+<li>A platform focused on enhancing community engagement.</li>
+<li>Utilizes tech tools to promote participatory culture in civic management.</li>
+<li>Connects citizens with local governments for better communication and collaboration.
+</li><li>Foster a more engaged and informed citizenry, enhancing civic participation and governance.</li>
+<li> Front end :  HTML  , CSS , BOOTSTRAP , JAVA SCRIPT </li>
+<li>Scripting language :  Python </li>
+<li>Back end   :  SQLITE3 </li>
+<LI>Frame work :  DJANGO</LI>
+</ul> </dd></dd></dl>
+</li><br><li><dl>
+<b><dt>ONLINE LIBRARY MANAGMENT SYSTEMt</dt><BR></b>
+<ul><LI> Designed to streamline various library functions such as maintains records of library users and including borrowing history .</LI>
+<li>Provides users with the ability to access the library’s collection remotely.</li>
+<li>Often supports notifications for due dates and new arrivals.</li>
+<li> Front end :HTML,CSS </li>
+<li>Scripting language :java script </li>
+<li>Back end:PHP ,MY SQL </li>
+</ul> </li></ol><br>
+<h2> PERSONAL SKILLS</H2><UL>
+<LI> Communication  </LI>
+<li> Leadership</li>
+<li> Team work</li>
+<li> Dancing  </li></UL>
+<br><h2>  LANGUAGES KNOWING</H2>
+<UL><LI> English  </LI>
+<li> French</li>
+</UL><divclass="link"><ahref="C:\Users\acer\Desktop\mca anagha\cv.html">Back</a></div>
+</body>
+</html>
